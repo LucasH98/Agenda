@@ -1,0 +1,57 @@
+<%- include('includes/head') %>
+<%- include('includes/nav') %>
+
+<style>
+  .container {
+    text-align: center;
+  }
+
+  h1, h2 {
+    color: #333;
+  }
+
+  p {
+    color: #666;
+  }
+
+  .feature-list {
+    list-style: none;
+    padding: 0;
+  }
+
+  .feature-list li {
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+    transition: background-color 0.3s ease; /* Adição: efeito de transição */
+  }
+
+</style>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-2"></div>
+
+    <div class="col-lg-8 my-3">
+      <h1>Olá <%=user.email%><br>Bem-vindo à sua Agenda de Contatos</h1>
+      <p>Organize seus contatos de maneira fácil e eficiente.</p>
+      
+      <div>
+        <h2>Recursos Principais:</h2>
+        <ul class="feature-list mx-auto">
+          <li>Adicionar novos contatos</li>
+          <li>Editar informações de contato</li>
+          <li>Excluir contatos</li>
+          <li>Listagem de contatos</li>
+        </ul>
+      </div>
+      
+      <p>Comece agora mesmo a gerenciar seus contatos de forma simples e rápida!</p>
+    </div>
+
+    <div class="col-lg-2"></div>
+  </div>
+</div>
+
+<%- include('includes/footer') %>
