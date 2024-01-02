@@ -1,6 +1,6 @@
 # 🔖&nbsp;Agenda de contatos
 ## Descrição
-Sistema de agenda  para gerenciar contatos com CRUD completo com e validações tanto do frontend quanto no backend
+Sistema de agenda  para gerenciar contatos com CRUD completo  e com validações tanto do frontend quanto no backend
 
 
 
